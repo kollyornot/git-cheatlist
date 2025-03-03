@@ -25,4 +25,6 @@ you have 2 keys(SSH) - one that encrypts your data, public one, and one that dec
 
 git add [file name/—all] —>  git commit -m [message to a commit] — > git push  
 
+hash - kind of ID for every commit. contains letters and digits. one repository can identify one hash on different devices
+
 HEAD - a hidden file inside .git folder, which stores referral to last commit. u can use HEAD in ur commands, instead of writing hash of last commit
