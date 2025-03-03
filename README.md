@@ -27,4 +27,6 @@ git add [file name/—all] —>  git commit -m [message to a commit] — > git p
 
 hash - kind of ID for every commit. contains letters and digits. one repository can identify one hash on different devices
 
+log - contains info about commit - hash, date, name and email, and small comment about commit. to call short variation of log(contains as much digits of hash, as it takes for pc to recognize hash), use `git log --oneline`
+
 HEAD - a hidden file inside .git folder, which stores referral to last commit. u can use HEAD in ur commands, instead of writing hash of last commit
