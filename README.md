@@ -30,3 +30,9 @@ hash - kind of ID for every commit. contains letters and digits. one repository 
 log - contains info about commit - hash, date, name and email, and small comment about commit. to call short variation of log(contains as much digits of hash, as it takes for pc to recognize hash), use `git log --oneline`
 
 HEAD - a hidden file inside .git folder, which stores referral to last commit. u can use HEAD in ur commands, instead of writing hash of last commit
+
+statuses - each file has at least one of those statuses:
+-modified - file was modified 
+-staged - changes are ready to commit (called `git add`)
+-tracked - git can track commits of this file(file existed before commit, or called `git add`) 
+-untracked - file is new, not staged, git cannot recognise it(new file + didn't call `git add`)
