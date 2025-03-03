@@ -24,3 +24,5 @@ clone repository - `git clone [url]`
 you have 2 keys(SSH) - one that encrypts your data, public one, and one that decrypts your data, it should not be given to anybody!!!11!!!!1!!!!!111!  
 
 git add [file name/—all] —>  git commit -m [message to a commit] — > git push  
+
+HEAD - a hidden file inside .git folder, which stores referral to last commit. u can use HEAD in ur commands, instead of writing hash of last commit
